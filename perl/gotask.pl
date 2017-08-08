@@ -3,7 +3,6 @@ use warnings;
 use feature 'say';
 
 my $file = shift;
-unless ($file =~ /\.\/.*/) {$file = "./$file"}
 
 open my $fh, "<", "$file" or die "Trouble with file: $!";
 
