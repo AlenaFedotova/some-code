@@ -11,4 +11,3 @@ while (<$fh>) {$num++}
 
 close $fh;
 say $num;
-
